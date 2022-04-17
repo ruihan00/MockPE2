@@ -4,7 +4,6 @@
 
 import java.util.List;
 import java.util.ArrayList;
-
 public final class Trace<T> {
   private T value;
   private ArrayList<T> history;
@@ -48,6 +47,5 @@ public final class Trace<T> {
     }
     return false;
   }
-
  
 }
